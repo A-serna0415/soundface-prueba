@@ -1,0 +1,1708 @@
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
+    /*overflow-y: hidden;*/
+    /*text-align: center;*/ 
+}
+
+
+/* NAVEGACIÓN */
+
+.navbar-brand {
+    font-family: 'Krona One', sans-serif;
+}
+
+.navbar {
+    box-shadow: 1px 1px 3px rgb(141, 141, 141);
+}
+
+
+/* HEADER VIDEO */
+
+.header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.content {
+    max-width: 48rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+
+}
+
+.header-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header-video video {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+
+.header-texto {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 50px;
+    z-index: 2;
+    align-items: center;
+    text-align: center;
+}
+
+.header-texto h1 {
+    font-size: 100pt;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header-texto p {
+    font-size: 20pt;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.header-texto i {
+    font-size: 16pt;
+}
+
+
+/*header {
+    position: relative;
+}
+
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.header-content-texto {
+    position: absolute;
+    display: block;
+    flex-wrap: wrap;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.header-content-texto h1 {
+    font-size: 100px;
+    font-weight: 400;
+    color: black;
+    align-self: center;
+}
+
+
+.header-content-texto p {
+    align-self: center;
+    font-size: 22px;
+    font-weight: 300;
+    color: black;
+}
+
+.icono-flecha {
+    align-items: center;
+}
+*/
+
+
+/* INICIO DESCRIPCIÓN */
+
+.section0 {
+    display: flex;
+    background-color: black;
+}
+
+
+.content-descripcion  {
+    background-color: black;
+}
+   
+
+.content-descripcion p {
+    font-size: 25pt;
+    font-weight: 300;
+    text-align: center;
+    margin: 100px 200px 100px 200px;
+    color: rgb(228, 228, 228);
+}
+
+
+/* IMG PIPE */
+
+.section1 {
+    display: flex-direction-colum;
+    width: 100%;
+    height: 1000px;
+}
+
+.content-img-pipe {
+    background-image: url('res/img/img-comprimidas/img-pipe.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* DESCRIPCIÓN EXPANSIÓN */
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.content-section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-section2 h2 {
+    margin: 100px 200px 15px 200px;
+    font-size: 60pt;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.content-section2 p {
+    margin: 15px 200px 100px 200px;
+    font-size: 25pt;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+/* IMG ALEXIS */
+
+.section3 {
+    display: flex-direction-colum;
+    width: 100%;
+    height: 1000px;
+}
+
+.content-img-alex {
+    background-image: url('res/img/img-comprimidas/img-alex.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* DESCRIPCIÓN EXO-ÓRGANO */
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-estuche {
+    display: flex;
+    width: 800px;
+    height: 800px;
+    background-image: url('res/img/img-comprimidas/img-estuche-1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    margin-left: 50px;
+}
+
+.text-section4 {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin-left: 15px;
+    margin-right: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.text-section4 h2 {
+    font-size: 60pt;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.text-section4 p {
+    font-size: 25pt;
+    font-weight: 300;
+}
+
+
+/* DESPIECE DISPOSITIVO */
+
+.section5 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-objeto-interno {
+    display: flex;
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    background-image: url('res/img/img-comprimidas/objeto-despiece-2.png');
+    background-position: left;
+    background-size: 1000px 1000px;
+    margin-top: 100px;
+    margin-left: -480px;
+    margin-bottom: 100px;
+    background-repeat: no-repeat;
+}
+
+.img-objeto-externo {
+    display: flex;
+    width: 1000px;
+    height: 1000px;
+    background-image: url('res/img/img-comprimidas/objeto-despiece-1.png');
+    background-position: right;
+    background-size: 1000px 1000px;
+    margin-top: 100px;
+    margin-right: -480px;
+    margin-bottom: 100px;
+    background-repeat: no-repeat;
+}
+
+
+/* EXO-ÓRGANO MODELO 3D*/
+
+.texto-modelo3d {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.texto-modelo3d h1 {
+    font-size: 60pt;
+    font-weight: 400;
+    margin: 100px 200px 30px 200px;
+}
+
+.texto-modelo3d p {
+    font-size: 25pt;
+    font-weight: 300;
+    margin: 0px 200px 100px 200px;
+}
+
+.section-modelo3d {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+/* DESCRIPCIÓN CUERPO CIBORG */
+
+.section6 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-cuerpo-ciborg {
+    text-align: center;
+    margin: 100px 200px;
+}
+
+.texto-cuerpo-ciborg h1 {
+    font-size: 60pt;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.texto-cuerpo-ciborg p {
+    font-size: 25pt;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+/* DESCRIPCIÓN UBICACIÓN EXO-ÓRGANO */
+
+.section7 {
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.container-img-interfaz {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-interfaz-tactil-1 {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-image: url('res/img/img-comprimidas/objeto-oreja.png');
+    background-position: auto;
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    margin: 0px auto 100px auto;
+}
+
+.img-interfaz-tactil-2 {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-image: url('res/img/img-comprimidas/objeto-oreja-2.png');
+    background-position: auto;
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    margin: 0px auto 100px auto;
+ 
+}
+
+.img-interfaz-tactil-3 {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-image: url('res/img/img-comprimidas/objeto-oreja-3.png');
+    background-position: auto;
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    margin: 0px auto 100px auto;
+}
+
+/* INTERFAZ TACTIL DESCRIPCIÓN */
+
+.section8 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-interfaz-gustos {
+    text-align: center;
+    margin: 100px 200px;
+}
+
+.texto-interfaz-gustos h1 {
+    font-size: 60pt;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.texto-interfaz-gustos p {
+    font-size: 25pt;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+/* INTERFAZ TACTIL IMAGENES */
+
+.section9 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    margin: 0px 100px 100px 100px;
+}
+
+.section9 h1 {
+    text-align: center;
+    font-size: 25pt;
+    font-weight: 400;
+    margin-top: 50px;
+   
+}
+
+.section9 p {
+    text-align: center;
+    font-size: 18pt;
+    font-weight: 300;
+}
+
+/* DESCRIPCIÓN ASISTENTE VIRTUAL */
+
+.section10 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.asistente-virtual {
+    text-align: center;
+    margin: 0px 200px 100px 200px;
+}
+
+.asistente-virtual h1 {
+    font-size: 60pt;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.asistente-virtual p {
+    font-size: 25pt;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+/* IMG PIPE INTERFAZ */
+
+.section11 {
+    display: flex-direction-colum;
+    width: 100%;
+    height: 1000px;
+}
+
+.img-pipe-interfaz {
+    background-image: url('res/img/img-comprimidas/img-pipe-interfaz.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* DESCRIPCIÓN NUEVO SENTIDO */
+
+.section12 {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-nuevo-sentido {
+    text-align: center;
+    margin: 100px 200px;
+}
+
+.container-nuevo-sentido h1 {
+    font-size: 60pt;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: rgb(228, 228, 228);
+}
+
+.container-nuevo-sentido p {
+    font-size: 25pt;
+    font-weight: 300;
+    margin-bottom: 0px;
+    color: rgb(228, 228, 228);
+}
+
+/* IMG NUEVO SENTIDO */
+
+.section13 {
+    display: flex-direction-colum;
+    width: 100%;
+    height: 1000px;
+}
+
+.img-nuevo-sentido {
+    background-image: url('res/img/img-comprimidas/img-pipe-y-maye.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* DESCRIPCIÓN SONORO-FACIAL */
+
+.section14 {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-texto-sonorofacial {
+    text-align: center;
+    margin: 100px 200px;
+}
+
+.container-texto-sonorofacial h1 {
+    font-size: 60pt;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: rgb(228, 228, 228);
+}
+
+.container-texto-sonorofacial p {
+    font-size: 25pt;
+    font-weight: 300;
+    margin-bottom: 0px;
+    color: rgb(228, 228, 228);
+}
+
+/* IMG EXPRESIONES SONORO-FACIALES */
+
+.section15 {
+    display: flex-direction-colum;
+    width: 100%;
+    height: 840px;
+}
+
+.img-expresiones-sonorofaciales {
+    background-image: url('res/img/img-comprimidas/img-expresiones3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* DESCRIPCIÓN TU CARA ME SUENA */
+
+.section16 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-texto-suena {
+    text-align: center;
+    margin: 100px 200px;
+}
+
+.container-texto-suena h1 {
+    font-size: 60pt;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.container-texto-suena p {
+    font-size: 25pt;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+/* ICONOS EMOCIONES */
+
+.section17 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 0px 200px 100px 200px;
+}
+
+.section17 img {
+    width: 300px;
+    height: 430px;
+}
+
+.iconos-emociones{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.iconos-emociones i {
+    margin: 30px 30px;
+}
+
+.section18 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 0px 200px 100px 200px;
+}
+
+.section18 img {
+    width: 300px;
+    height: 430px;
+}
+
+/* DESCRIPCIÓN REPRODUCTOR DE MUSICA*/
+
+.section19 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-texto-musica {
+    text-align: center;
+    margin: 100px 200px;
+}
+
+.container-texto-musica h1 {
+    font-size: 60pt;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.container-texto-musica p {
+    font-size: 25pt;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.container-texto-musica img {
+    margin: 100px 100px;
+    width: 126px;
+    height: 131px;
+}
+
+
+/* IMG REPRODUCTOR DE MUSICA */
+
+.section20 {
+    display: flex;
+    width: 100%;
+    height: 1080px;
+}
+
+.img-reproducir-musica {
+    background-image: url('res/img/img-comprimidas/img-maye.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.pie-img-reproducir-musica {
+    text-align: center;
+    margin: 50px 200px;
+}
+
+.section21 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pie-img-reproducir-musica p {
+    font-size: 14pt;
+    font-weight: 300;
+    margin-bottom: 50px; 
+}
+
+
+/* TEXTO ADVERTENCIA */
+
+.section22 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(233, 233, 233);
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 50px;
+}
+
+.texto-advertencia {
+    text-align: left;
+    
+}
+
+.texto-advertencia p {
+    font-size: 18pt;
+    font-weight: 400;
+    margin-bottom: 0px;
+    color: black;
+}
+
+
+/* ESPECIFICACIONES */
+.section23 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section23 h1 {
+    font-size: 60pt;
+    font-weight: 400;
+    margin: 100px 200px 100px 200px;
+}
+
+/* TABLA DE ESPECIFICACIONES */
+
+.section24 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 80px 100px 80px;
+}
+
+.container-tabla {
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+}
+
+.titulo-item {
+    width: 30%;
+    font-size: 28pt;
+    font-weight: 400;
+}
+
+.descripcion-item {
+    width: 70%;
+    font-size: 22pt;
+    font-weight: 300;
+}
+
+table {
+    width: 100%;
+}
+
+tr, td {
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid black;
+    padding: 50px;
+}
+
+
+/* IMG OBJETO EN EL ESTUCHE */
+
+.section25 {
+    display: flex-direction-colum;
+    width: 100%;
+    height: 1080px;
+    align-items: center;
+    margin: 200px 200px 100px 200px;
+
+}
+
+
+/* TEXTO MEDIO AMBIENTE */
+
+.section26 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 80px 100px 80px;
+}
+
+.container-medioambiente {
+    background-color: rgb(211, 236, 211);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.container-medioambiente h2 {
+    font-weight: 400;
+    font-size: 30pt;
+    color: rgb(40, 114, 83);
+}
+
+.container-medioambiente p, li {
+    font-weight: 300;
+    font-size: 14pt;
+}
+
+.icono-producto {
+    margin: 0px 30px 30px 30px;
+}
+
+/* BANNER EMPRESA */
+
+.section27 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px 200px 100px 200px;
+}
+
+/* FOOTER */
+.section28 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(233, 233, 233);
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: left;
+    margin: 50px 50px 50px 50px;
+    border-bottom: 1px solid gray;
+    background-color: rgb(233, 233, 233);
+}
+
+.footer1 p {
+    font-size: 10pt;
+    font-weight: 300;
+    margin: 0%;
+}
+
+.footer2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0px 50px 50px 50px;
+    border-bottom: 1px solid gray;
+    background-color: rgb(233, 233, 233);
+}
+
+.footer2 p {
+    font-size: 10pt;
+    font-weight: 300;
+    margin: 0 auto;
+    color: rgb(90, 90, 90);
+}
+
+.footer3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0px 50px 100px 50px;
+    border-bottom: 1px solid gray;
+    background-color: rgb(233, 233, 233);
+    color: rgb(90, 90, 90);
+}
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+    * {
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+        overflow-x: hidden;
+    }
+
+
+    /* HEADER */
+    .header {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        color: black;
+    }
+    
+    .content {
+        max-width: 48rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: auto;
+        text-align: center;
+    
+    }
+    
+    .header-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+    
+    .header-video video {
+        min-width: 100%;
+        min-height: 100%;
+    }
+    
+    
+    .header-texto {
+        display: flex;
+        flex-direction: column;
+        margin: 100px auto;
+        z-index: 2;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .header-texto h1 {
+        font-size: 70pt;
+        font-weight: 400;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    .header-texto p {
+        font-size: 14pt;
+        font-weight: 300;
+        font-family: 'Roboto Condensed', sans-serif;
+        display: block;
+        margin-bottom: 1rem;
+    }
+    
+    .header-texto i {
+        font-size: 18pt;
+    }
+    
+
+    /*DESCRIPCIÓN 1*/
+    .content-descripcion p {
+        font-size: 18pt;
+        font-weight: 300;
+        text-align: center;
+        margin: 50px 20px 50px 20px;
+        color: rgb(228, 228, 228);
+    }
+
+
+    .section1 {
+        display: flex-direction-colum;
+        width: 100%;
+        height: 460px;
+    }
+    
+    .content-img-pipe {
+        background-image: url('res/img/img-comprimidas/img-pipe.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .content-section2 h2 {
+        margin: 50px 20px 8px 20px;
+        font-size: 26pt;
+        font-weight: 400;
+        text-align: center;
+    
+    }
+    
+    .content-section2 p {
+        margin: 8px 20px 50px 20px;
+        font-size: 18pt;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .section3 {
+        display: flex-direction-colum;
+        width: 100%;
+        height: 460px;
+    }
+    
+    .content-img-alex {
+        background-image: url('res/img/img-comprimidas/img-alex.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* DESCRIPCIÓN EXO-ÓRGANO */
+    .section4 {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .img-estuche {
+        display: flex;
+        width: 450px;
+        height: 450px;
+        background-image: url('res/img/img-comprimidas/img-estuche-1.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 100px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    .text-section4 {
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        height: 450px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    
+    .text-section4 h2 {
+        font-size: 26pt;
+        margin-bottom: 15px;
+        font-weight: 400;
+    }
+    
+    .text-section4 p {
+        font-size: 18pt;
+        font-weight: 300;
+    }
+
+        /* DESPIECE DISPOSITIVO */
+
+    .section5 {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    
+    }
+
+    .img-objeto-interno {
+        display: flex;
+        position: relative;
+        width: 500px;
+        height: 500px;
+        background-image: url('res/img/img-comprimidas/objeto-despiece-2.png');
+        background-position: center;
+        background-size: cover;
+        margin-top: 0px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 25px;
+        background-repeat: no-repeat;
+    }
+
+    .img-objeto-externo {
+        display: flex;
+        position: relative;
+        width: 500px;
+        height: 500px;
+        background-image: url('res/img/img-comprimidas/objeto-despiece-1.png');
+        background-position: center;
+        background-size: cover;
+        margin-top: 25px;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+        background-repeat: no-repeat;
+    }
+
+
+    /* EXO-ÓRGANO MODELO 3D*/
+
+    .texto-modelo3d {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .texto-modelo3d h1 {
+        font-size: 26pt;
+        font-weight: 400;
+        margin: 50px 30px 30px 30px;
+    }
+
+    .texto-modelo3d p {
+        font-size: 18pt;
+        font-weight: 300;
+        margin: 0px 30px 100px 30px;
+    }
+
+    .section-modelo3d {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+
+    /* DESCRIPCIÓN CUERPO CIBORG */
+
+    .section6 {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto-cuerpo-ciborg {
+        text-align: center;
+        margin: 50px 30px;
+    }
+
+    .texto-cuerpo-ciborg h1 {
+        font-size: 26pt;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .texto-cuerpo-ciborg p {
+        font-size: 18pt;
+        font-weight: 300;
+        margin-bottom: 0px;
+    }
+
+
+    /* DESCRIPCIÓN UBICACIÓN EXO-ÓRGANO */
+
+    .section7 {
+        width: auto;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    .container-img-interfaz {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-interfaz-tactil-1 {
+        display: flex;
+        width: 150px;
+        height: 150px;
+        background-image: url('res/img/img-comprimidas/objeto-oreja.png');
+        background-position: auto;
+        background-size: 150px 150px;
+        background-repeat: no-repeat;
+        margin: 0px auto 50px auto;
+    }
+
+    .img-interfaz-tactil-2 {
+        display: flex;
+        width: 150px;
+        height: 150px;
+        background-image: url('res/img/img-comprimidas/objeto-oreja-2.png');
+        background-position: auto;
+        background-size: 150px 150px;
+        background-repeat: no-repeat;
+        margin: 0px auto 50px auto;
+    
+    }
+
+    .img-interfaz-tactil-3 {
+        display: flex;
+        width: 150px;
+        height: 150px;
+        background-image: url('res/img/img-comprimidas/objeto-oreja-3.png');
+        background-position: auto;
+        background-size: 150px 150px;
+        background-repeat: no-repeat;
+        margin: 0px auto 50px auto;
+    }
+
+
+    /* INTERFAZ TACTIL DESCRIPCIÓN */
+
+    .section8 {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto-interfaz-gustos {
+        text-align: center;
+        margin: 0px 30px;
+    }
+
+    .texto-interfaz-gustos h1 {
+        font-size: 26pt;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .texto-interfaz-gustos p {
+        font-size: 18pt;
+        font-weight: 300;
+        margin-bottom: 0px;
+    }
+
+    /* INTERFAZ TACTIL IMAGENES */
+
+    .section9 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        margin: 50px 30px 100px 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section9 h1 {
+        text-align: center;
+        font-size: 18pt;
+        font-weight: 400;
+        margin-top: 50px;
+    
+    }
+
+    .section9 p {
+        text-align: center;
+        font-size: 12pt;
+        font-weight: 300;
+    }
+
+
+    /*TEXTO ASISTENTE VIRTUAL*/
+    .section10 {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .asistente-virtual {
+        text-align: center;
+        margin: 50px 30px 100px 30px;
+    }
+    
+    .asistente-virtual h1 {
+        font-size: 26pt;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    
+    .asistente-virtual p {
+        font-size: 18pt;
+        font-weight: 300;
+        margin-bottom: 0px;
+    }
+
+
+
+    /*IMG PIPE INTERFAZ*/
+    .section11 {
+        display: flex-direction-colum;
+        width: auto;
+        height: 350px;
+    }
+    
+    .img-pipe-interfaz {
+        background-image: url('res/img/img-comprimidas/img-pipe-interfaz.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* DESCRIPCIÓN NUEVO SENTIDO */
+
+    .section12 {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-nuevo-sentido {
+        text-align: center;
+        margin: 100px 30px;
+    }
+
+    .container-nuevo-sentido h1 {
+        font-size: 26pt;
+        font-weight: 400;
+        margin-bottom: 30px;
+        color: rgb(228, 228, 228);
+    }
+
+    .container-nuevo-sentido p {
+        font-size: 18pt;
+        font-weight: 300;
+        margin-bottom: 0px;
+        color: rgb(228, 228, 228);
+    }
+
+
+    /* IMG NUEVO SENTIDO */
+
+    .section13 {
+        display: flex-direction-colum;
+        width: auto;
+        height: 320px;
+    }
+
+
+    /* DESCRIPCIÓN SONORO-FACIAL */
+
+    .section14 {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-texto-sonorofacial {
+        text-align: center;
+        margin: 100px 30px;
+    }
+
+    .container-texto-sonorofacial h1 {
+        font-size: 26pt;
+        font-weight: 400;
+        margin-bottom: 30px;
+        color: rgb(228, 228, 228);
+    }
+
+    .container-texto-sonorofacial p {
+        font-size: 18pt;
+        font-weight: 300;
+        margin-bottom: 0px;
+        color: rgb(228, 228, 228);
+    }
+
+
+    /* IMG EXPRESIONES SONORO-FACIALES */
+    .section15 {
+        display: flex-direction-colum;
+        width: 100%;
+        height: 270px;
+    }
+
+    .img-expresiones-sonorofaciales {
+        background-image: url('res/img/img-comprimidas/img-expresiones3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* DESCRIPCIÓN TU CARA ME SUENA */
+
+    .section16 {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-texto-suena {
+        text-align: center;
+        margin: 100px 30px;
+    }
+
+    .container-texto-suena h1 {
+        font-size: 26pt;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .container-texto-suena p {
+        font-size: 18pt;
+        font-weight: 300;
+        margin-bottom: 0px;
+    }
+
+
+    /* ICONOS EMOCIONES */
+
+    .section17 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        margin: 0px 30px 50px 30px;
+    }
+
+    .section17 img {
+        width: 100px;
+        height: 140px;
+    }
+
+    .iconos-emociones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .iconos-emociones i {
+        margin: 30px 10px;
+        font-size: 50px;
+    }
+
+    .section18 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        margin: 0px 30px 50px 30px;
+    }
+
+    .section18 img {
+        width: 100px;
+        height: 140px;
+    }
+
+
+    /* DESCRIPCIÓN REPRODUCTOR DE MUSICA*/
+
+    .section19 {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-texto-musica {
+        text-align: center;
+        margin: 100px 30px;
+    }
+
+    .container-texto-musica h1 {
+        font-size: 26pt;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .container-texto-musica p {
+        font-size: 18pt;
+        font-weight: 300;
+        margin-bottom: 0px;
+    }
+
+    .container-texto-musica img {
+        margin: 100px 100px 0px 100px;
+        width: 126px;
+        height: 131px;
+    }
+
+
+    /* IMG REPRODUCTOR DE MUSICA */
+
+    .section20 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+    }
+
+    .img-reproducir-musica {
+        background-image: url('res/img/img-comprimidas/img-maye.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .pie-img-reproducir-musica {
+        text-align: center;
+        margin: 50px 40px 0px 40px;
+    }
+
+    .section21 {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pie-img-reproducir-musica p {
+        font-size: 12pt;
+        font-weight: 300;
+        margin-bottom: 100px; 
+    }
+
+
+    /* TEXTO ADVERTENCIA */
+    .texto-advertencia p {
+        font-size: 14pt;
+        font-weight: 400;
+        margin-bottom: 0px;
+        color: black;
+    }
+
+
+    /* TITULO ESPECIFICACIONES */
+    .section23 h1 {
+        font-size: 26pt;
+        font-weight: 400;
+        margin: 100px 30px 50px 30px;
+    }
+
+
+    /* TABLA DE ESPECIFICACIONES */
+
+    .section24 {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        align-items: center;
+        margin: 0px 20px 100px 20px;
+    }
+
+    .container-tabla {
+        width: auto;
+        background-color: rgb(233, 233, 233);
+    }
+
+    .titulo-item {
+        width: 30%;
+        font-size: 18pt;
+        font-weight: 400;
+    }
+
+    .descripcion-item {
+        width: 70%;
+        font-size: 14pt;
+        font-weight: 300;
+    }
+
+    table {
+        width: auto;
+    }
+
+    tr, td {
+        text-align: left;
+        vertical-align: top;
+        border-bottom: 1px solid black;
+        padding: 30px;
+    }
+
+
+
+    .section25 {
+        display: flex-direction-colum;
+        width: 100%;
+        height: 500px;
+        align-items: center;
+        margin: 100px 50px 50px 30px;
+        
+    }
+
+    .section25 img {
+        width: 450px;
+        height: 450px;
+    }
+
+
+        /* TEXTO MEDIO AMBIENTE */
+
+    .section26 {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 20px 100px 20px;
+    }
+
+    .container-medioambiente {
+        background-color: rgb(211, 236, 211);
+        padding: 50px;
+        border-radius: 20px;
+    }
+
+    .container-medioambiente h2 {
+        font-weight: 400;
+        font-size: 22pt;
+        color: rgb(40, 114, 83);
+    }
+
+    .container-medioambiente p, li {
+        font-weight: 300;
+        font-size: 14pt;
+    }
+
+    .icono-producto {
+        margin: 0px 30px 30px 30px;
+    }
+
+        .section27 {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            flex-direction: column;
+            align-items: center;
+            margin: 200px 0px 100px 0px;
+        }
+
+}
+
